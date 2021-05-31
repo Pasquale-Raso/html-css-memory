@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 73, 97);
     font-family: 'Nerko One', cursive;
 }
 .conteiner {
@@ -20,4 +20,142 @@ h1{
     color: white;
     text-shadow:  2px  2px 2px #777777;
     margin-bottom: 20px;
+
+    /* Main */
+}
+.main-contenitor {
+    height: calc( 100% / 4);
+    
+
+} 
+.imagepattern {
+    width: 100%;
+    background-repeat: repeat;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: -20px;
+    display: block;
+}   
+.n1{
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px 2px 2px #777777;
+}
+.n1:hover {
+    background-image: url(../img/noun_Bicycle_3134821.png);
+}
+.n2 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n3 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n4 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+} 
+.n5 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px 2px 2px #777777;
+}
+.n6 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n7 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n8 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n9 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px 2px 2px #777777;
+}
+.n10 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n11 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.n12 {
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 2px  2px 2px #777777;
+}
+.Tractor{
+    color: orange;
+    text-shadow: 1px  1px 1px #1b1b1b;
+    text-align: center;
+    font-size: 30px;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
