@@ -5,14 +5,14 @@
     padding: 0;
 }
 body {
-    background-color: rgb(0, 73, 97);
+    background-color: lightblue;
     font-family: 'Nerko One', cursive;
 }
 .conteiner {
     width: 60%;
-    height: 1000px;
+    height: auto;
     margin: 0 auto;
-    background-color: lightblue
+    background-color: lightblue;
 }
 h1{
     text-align: center;
@@ -20,142 +20,118 @@ h1{
     color: white;
     text-shadow:  2px  2px 2px #777777;
     margin-bottom: 20px;
-
+}
     /* Main */
-}
-.main-contenitor {
-    height: calc( 100% / 4);
-    
 
-} 
-.imagepattern {
-    width: 100%;
-    background-repeat: repeat;
-    margin: 0 auto;
-    object-fit: cover;
-    border-radius: 15px;
-    margin-bottom: -20px;
-    display: block;
-}   
-.n1{
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px 2px 2px #777777;
-}
-.n1:hover {
-    background-image: url(../img/noun_Bicycle_3134821.png);
-}
-.n2 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n3 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n4 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-} 
-.n5 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px 2px 2px #777777;
-}
-.n6 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n7 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n8 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n9 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px 2px 2px #777777;
-}
-.n10 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n11 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.n12 {
-    width: 170px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15px;
-    float: left;
-    margin: 15px;
-    box-shadow: 2px  2px 2px #777777;
-}
-.Tractor{
-    color: orange;
-    text-shadow: 1px  1px 1px #1b1b1b;
-    text-align: center;
-    font-size: 30px;
-}
-.clearfix::after {
+    .riquadro, .riquadro2, .riquadro3, .riquadro4, .riquadro5, .riquadro6, .riquadro7, .riquadro8, .riquadro9, .riquadro10, .riquadro11, .riquadro12 {
+        width: 170px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        margin: 15px;
+        box-shadow: 2px 2px 2px #777777;
+        border-radius: 15px;
+        position: relative;
+    }
+    .immagine1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+    .immagine2, .immagine3, .immagine4, .immagine5, .immagine6, .immagine7, .immagine8, .immagine9, .immagine10, .immagine11, .immagine12, .immagine13, .testi {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .riquadro:hover .immagine1 {
+        display: none;
+    }
+    .riquadro:hover .immagine2 {
+        display: block;
+    }
+    .riquadro:hover .testi {
+        display: block;
+    }
+    .riquadro2:hover .immagine1 {
+        display: none;
+    }
+    .riquadro2:hover .immagine3 {
+        display: block;
+    }
+    .riquadro3:hover .immagine1 {
+        display: none;
+    }
+    .riquadro3:hover .immagine4 {
+        display: block;
+    }
+    .riquadro4:hover .immagine1 {
+        display: none;
+    }
+    .riquadro4:hover .immagine5 {
+        display: block;
+    }
+    .riquadro5:hover .immagine1 {
+        display: none;
+    }
+    .riquadro5:hover .immagine6 {
+        display: block;
+    }
+    .riquadro6:hover .immagine1 {
+        display: none;
+    }
+    .riquadro6:hover .immagine7 {
+        display: block;
+    }
+    .riquadro7:hover .immagine1 {
+        display: none;
+    }
+    .riquadro7:hover .immagine8 {
+        display: block;
+    }
+    .riquadro8:hover .immagine1 {
+        display: none;
+    }
+    .riquadro8:hover .immagine9 {
+        display: block;
+    }
+    .riquadro9:hover .immagine1 {
+        display: none;
+    }
+    .riquadro9:hover .immagine10 {
+        display: block;
+    }
+    .riquadro10:hover .immagine1 {
+        display: none;
+    }
+    .riquadro10:hover .immagine11 {
+        display: block;
+    }
+    .riquadro11:hover .immagine1 {
+        display: none;
+    }
+    .riquadro11:hover .immagine12 {
+        display: block;
+    }
+    .riquadro12:hover .immagine1 {
+        display: none;
+    }
+    .riquadro12:hover .immagine13 {
+        display: block;
+    }
+    .testi {
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        font-size: 25px;
+    } 
+
+    .clearfix::after {
     content: '';
     display: table;
     clear: both;
-}
+    } 
+    .footer {
+        text-align: center;
+        } 
